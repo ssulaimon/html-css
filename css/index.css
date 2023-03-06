@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Pathway+Gothic+One&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-body{
+    
+    box-sizing: 0;
+    height: 90vh;
+    background-color:#E3D9E8;
+    margin: 30px 50px;
+    padding: 30px;
+    overflow-y: hidden;
+    border-radius: 30px;
+   
+
+}
+.container{
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 1;
+    opacity: 0.6;
+    position: relative;
+}
+img{
+    position: absolute;
+    left:   35%;
+    z-index: 1;
+}
+h3, h1{
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: black;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+#google{
+    cursor: pointer;
+    margin: 20px 0;
+    background-color: #4F85E2;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color:white;
+    font-size: 15px;
+    border: none;
+}
+#apple{
+    padding: 10px 15px;
+    margin-left: 10px;
+    border:none;
+    font-size: 15px;
+    background-color: #F9D6F8;
+    border-radius: 5px;
+    color: #C72053;
+
+
+}
+#apple:hover{
+    background-color: #767178;
+}
+#google:hover{
+    background-color: #767178;
+}
+p{
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #767178;
+}
+input[type=email], input[type=password]{
+    border-color:black;
+    border-width: 1px;
+    background-color:white;
+    width: 60%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: black;
+    font-family: monospace;
+    outline: none;
+}
+input[type=password]{
+    background: url('/image/eye.svg');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 20px;
+}
+input[type=email]:focus {
+  border: 2px solid green;
+}
+input[type=password]:focus {
+    border: 2px solid green;
+  }
+#sign-in{
+    margin: 20px 0;
+    background-color: black;
+    display:block;
+    color:white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+#sign-in:hover{
+    background-color: #767178;
+
+}
+p > a{
+    text-decoration: none;
+    color:#4F85E2;
+    position: absolute;
+ left :43%;
+}
+a{
+    color:#4F85E2
+    ;text-align:center;
+    text-decoration: none;
+    
+}
+
